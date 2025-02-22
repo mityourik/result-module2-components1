@@ -1,0 +1,23 @@
+:root {
+	--accent-color-hue: 236;
+	--disabled-color: #cfcfcf;
+}
+
+.buttonsContainer {
+	margin-top: 1.5rem;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.buttonsContainer:hover {
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 87%);
+}
+
+.buttonsContainer:active {
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 82%);
+}
+
+.buttonsContainer:disabled {
+	background-color: var(--disabled-color);
+}

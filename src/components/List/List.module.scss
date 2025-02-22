@@ -1,0 +1,23 @@
+.listContainer {
+	margin-top: 1.5rem;
+}
+
+.listHeading {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 0.5rem;
+    text-align: center;
+}
+
+.list {
+    margin-top: 15px;
+	text-align: left;
+    list-style: decimal;
+	margin: 0 auto;
+	max-width: 300px;
+}
+
+.listItem:not(:last-child) {
+	margin-bottom: 0.5em;
+    text-align: center;
+}
