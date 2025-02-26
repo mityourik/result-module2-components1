@@ -10,6 +10,8 @@ export const ButtonsBlock = ({
     setErrorMessage,
 }) => {
     const handleInputClick = () => {
+        setIsError(false);
+        setErrorMessage('');
         const value = prompt('Введите значение').trim();
         if (value !== null) {
             if (value.length < 3) {
@@ -26,7 +28,7 @@ export const ButtonsBlock = ({
     };
 
     return (
-        <div className={styles.buttonsContainer}>
+        <div className={styles['buttons-container']}>
             <Button text="Ввести новое" onClick={handleInputClick} />
             <Button
                 text="Добавить в список"

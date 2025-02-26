@@ -1,18 +1,18 @@
-.buttonsContainer {
+.buttons-container {
     margin-top: 1.5rem;
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.buttonsContainer button:hover {
+.buttons-container button:hover {
     background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 87%);
 }
 
-.buttonsContainer button:active {
+.buttons-container button:active {
     background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 82%);
 }
 
-.buttonsContainer button:disabled {
+.buttons-container button:disabled {
     background-color: var(--disabled-color);
 }
